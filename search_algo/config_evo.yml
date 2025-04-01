@@ -1,0 +1,31 @@
+nsga:
+    parent_popu_size: 10
+    survival_ratio: 0.2  # 0.2 ~ 0.5
+    mutate_size: 5
+    crossover_size: 5
+    mutate_prob: 0.5
+    crossover_prob: 0.9
+    evo_iter: 8
+
+pso:
+    n_particles: 15
+    n_dimensions: 27
+    n_iterations: 11
+    min_ones: 5
+    max_ones: 8
+
+
+### dataset ###
+dataset: 'cifar10'
+
+
+### backbone ###
+model: 'resnet56'
+
+models_path: ''
+remote_evaluation:
+  remote_host: ""
+  username: ""
+  key_file_path: ""
+
+device: ''
