@@ -22,27 +22,27 @@ Required datasets:
 
 ## 📂 Repository Structure
 
-├── EarlyExitNetwork/ --- EE networks creating and training
-│   ├── architectures/ --- CNN backbones and EE networks
-│   ├── w_maestro/ --- transfer EE network to maestro modelfile
-│   ├── aux_funcs.py --- auxiliary functions
-│   ├── data.py --- Dataset processing scripts 
-│   ├── early-exit_experiments.py --- evaluate EE networks
-│   ├── model_funcs.py --- implements the functions for training and testing EE networks
-│   ├── network_architectures.py --- contains the functions to create and save EE networks
-│   ├── profiler.py --- compute GFLOPs and num params of EE networks
-│   └── train_networks.py --- train EE networks via SDN-training strategies
-├── search_algo/ 
-│   ├── remote_eval/ --- connect meastro and receive latency/energy
-│   ├── config.py --- config utilities for yml file
-│   ├── config_evo.yml --- project settings
-│   ├── eenno_pso_nsga_search.py --- main script
-│   ├── utils_eval.py --- utility functions to read/write results
-│   ├── utils_opt.py --- functions for the genetic algorithms
-│   └── utils_pso.py --- functions for adjusting the intermediate classifiers (ICs)
-├── search_space/ 
-│   └── eex_hw_search_space.py --- search space definition
-└── README.md --- Project documentation 
+├── EarlyExitNetwork/ --- EE networks creating and training\
+│   ├── architectures/ --- CNN backbones and EE networks\
+│   ├── w_maestro/ --- transfer EE network to maestro modelfile\
+│   ├── aux_funcs.py --- auxiliary functions\
+│   ├── data.py --- Dataset processing scripts \
+│   ├── early-exit_experiments.py --- evaluate EE networks\
+│   ├── model_funcs.py --- implements the functions for training and testing EE networks\
+│   ├── network_architectures.py --- contains the functions to create and save EE networks\
+│   ├── profiler.py --- compute GFLOPs and num params of EE networks\
+│   └── train_networks.py --- train EE networks via SDN-training strategies\
+├── search_algo/ \
+│   ├── remote_eval/ --- connect meastro and receive latency/energy\
+│   ├── config.py --- config utilities for yml file\
+│   ├── config_evo.yml --- project settings\
+│   ├── eenno_pso_nsga_search.py --- main script\
+│   ├── utils_eval.py --- utility functions to read/write results\
+│   ├── utils_opt.py --- functions for the genetic algorithms\
+│   └── utils_pso.py --- functions for adjusting the intermediate classifiers (ICs)\
+├── search_space/ \
+│   └── eex_hw_search_space.py --- search space definition\
+└── README.md --- Project documentation \
 └── requirements.yml --- Environment
 
 
